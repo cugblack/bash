@@ -43,7 +43,9 @@ if [ $DEL -eq 1 ] ; then
     fi
   done
 fi
-
+if [ $DEBUG -eq 1 ] ; then
+    echo "useradmin version 1.0.1-beta"
+fi
 
 
 
